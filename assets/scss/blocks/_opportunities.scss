@@ -1,0 +1,44 @@
+.opportunities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+    min-height: 512px;
+    background: #009cde;
+    background-image: radial-gradient( circle farthest-side at center bottom, #0091d7, #004094 100% );
+    color: $white-color;
+    &__wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    &__item {
+      img {
+        display: block;
+        height: 53px;
+      }
+    }
+    &__circle {
+      height: 92px;
+      width: 92px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $white-color;
+    }
+    &__descr {
+      text-align: center;
+      margin-top: 18px;
+    }
+    &__header {
+      margin-bottom: 8px;
+      font-size: 26px;
+      font-weight: 400;
+    }
+    &__text {
+      font-size: 19px;
+      font-weight: 400;
+    }
+  }

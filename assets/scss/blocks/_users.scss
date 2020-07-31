@@ -1,0 +1,88 @@
+.users {
+    min-height: 1420px;
+    font-family: "PT Sans", sans-serif;
+    &__header {
+      margin-top: 76px;
+    }
+    &__title {
+      font-size: 34px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #333;
+      text-align: center;
+    }
+    &__logo {
+      margin: 0 auto;
+      margin-bottom: 25px;
+      margin-top: 13px;
+      position: relative;
+      width: 40%;
+    }
+    &__img {
+      background: url("https://myapartment.roskvartal.ru/ClientApp/assets/images/users-solid.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 44px;
+      width: 100px;
+      background-color: white;
+      margin: 0 auto;
+      z-index: 1;
+    }
+    &__bar {
+      position: absolute;
+      top: 23px;
+      height: 2px;
+      width: 100%;
+      background-color: #de2b41;
+      z-index: -1;
+    }
+    &__option {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__image_right {
+      img {
+        height: 676px;
+        width: 331px;
+        margin: 0 45px;
+        display: block;
+        max-width: 100%;
+      }
+    }
+    &__text_right {
+      margin-bottom: 70px;
+    }
+    &__text_left {
+      margin-top: 140px;
+    }
+    &__subtitle {
+      font-size: 27px;
+      color: #046ab4;
+      font-weight: 700;
+      margin-bottom: 16px;
+      margin-left: 47px;
+    }
+    &__list {
+      width: 100%;
+      li {
+        list-style: none;
+        font-size: 18px;
+        line-height: 33px;
+        padding-left: 40px;
+        &::before {
+          content: "—";
+          margin: 0 5px -42px;
+        }
+      }
+    }
+    &__image_left {
+      img {
+        display: block;
+        max-width: 100%;
+        height: 546px;
+        
+      }
+    }
+  }

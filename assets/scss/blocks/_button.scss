@@ -1,0 +1,24 @@
+.button {
+    width: 240px;
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #e12351;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: -3px;
+    margin-right: 10px;
+    &_wide {
+      margin: 33px 45px auto;
+      width: 340px;
+    }
+    &_small {
+      margin: 33px 45px 70px;
+      width: 220px;
+    }
+    
+  }

@@ -1,0 +1,161 @@
+.footer {
+    min-height: 317px;
+    background-color: #006bb7;
+    font-family: "PT Sans", sans-serif;
+    &__links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 35px;
+    }
+    &-group {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      ul {
+        list-style: none;
+        li {
+          font-size: 16px;
+          color: $footer-color-list;
+          margin-bottom: 5px;
+          &:hover {
+            color: $white-color;
+            cursor: pointer;
+          }
+        }
+      }
+      &__cabinet {
+        position: absolute;
+        transform: translate(-17px,-77px);
+        padding: 10px 20px;
+        border: 1px solid $white-color;
+        border-radius: 30px;
+        color: $white-color;
+        font-weight: 100;
+        font-size: 22px;
+        cursor: pointer;
+        &:hover {
+          background-color: #00355b;
+        }
+      }
+      &__ask {
+        margin-top: 30px;
+        font-size: 20px;
+        cursor: pointer;
+        color: $footer-color-list;
+        &:hover {
+          color: $white-color;
+        }
+      }
+      &__letter {
+        margin-top: 20px;
+        color: $footer-color-list;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover {
+          color: $white-color;
+        }
+      }
+      &__title {
+        font-size: 16px;
+        font-weight: 700;
+        color: $white-color;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+      }
+      &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        margin-top: 20px;
+        &:hover {
+          background-color: rgba(0,0,0,.5);
+        }
+      }
+    }
+    &-contacts {
+      font-size: 14px;
+      font-family: "PT Sans",sans-serif;
+      margin-top: 23px;
+      background-color: #2a3c4e;
+      padding: 20px 0;
+      &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #979797;
+      }
+      &__firstgroup {
+        display: flex;
+      }
+      &__social {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      &__vk {
+        background-color: #4f729f;
+        @include social-icons;
+      }
+      &__facebook {
+        background-color: #415a9a;
+        @include social-icons;
+      }
+      &__ok {
+        background-color: #e37122;
+        @include social-icons;
+      }
+      &__youtube {
+        background-color: #f61c0d;
+        @include social-icons;
+      }
+      &__twitter {
+        background-color: #3cacf0;
+        @include social-icons;
+      }
+      &__viber {
+        background-color: #79529f;
+        @include social-icons;
+      }
+      &__telegram {
+        background-color: #6ea9de;
+        @include social-icons;
+      }
+      &__email {
+        margin-left: 40px;
+        a {
+          color: $white-color;
+        }
+      }
+      &__connect {
+        display: flex;
+        align-items: center;
+      }
+      &__text {
+        text-align: right;
+        margin-right: 15px;
+      }
+      &__phone {
+        color: $white-color;
+        font-size: 32px;
+        margin-right: 30px;
+      }
+      &__button {
+        padding: 10px 20px;
+        border-radius: 4px;
+        background-color: #007be5;
+        text-align: center;
+        font-size: 14px;
+        color: $white-color;
+        font-weight: 700;
+        cursor: pointer;
+      }
+    }
+    
+  }

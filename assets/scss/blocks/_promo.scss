@@ -1,0 +1,39 @@
+.promo {
+    font-family: "PT Sans", sans-serif;
+    min-height: 502px;
+    padding: 55px 0;
+    background-image: url("https://myapartment.roskvartal.ru/ClientApp/assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+    &__wrapper {
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    &__header{
+      font-family: "PT Serif", serif;
+      font-size: 34px;
+      font-weight: 700;
+      width: 50%;
+      margin-bottom: 17px;
+      line-height: 43px;
+    }
+    &__subheader {
+      font-size: 21px;
+      line-height: 26px;
+      width: 40%;
+      font-weight: 400;
+    }
+    &__buttons {
+      margin-top: 34px;
+      width: 50%;
+      display: flex;
+      align-items: center;
+    }
+    &__google {
+      width: 196px;
+      height: 76px;
+    }
+  }
