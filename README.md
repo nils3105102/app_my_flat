@@ -1,5 +1,11 @@
 # my-flat
 
+Сделал адаптивную верстку лендинга https://myapartment.roskvartal.ru/ (включая Правила, Инструкция, Соглашение)
+с использованием nuxt.js и модуля @nuxtjs/router (https://github.com/nuxt-community/router-module) 
+для перехода по страницам Правила, Инструкция, Соглашение
+
+
+
 ## Build Setup
 
 ```bash
